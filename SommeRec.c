@@ -13,7 +13,7 @@ scanf("%lf",&n);
       t1 = clock() ; 
       somme=SommeRecursive(n);
 	  t2 = clock() ;
-printf("voici la somme de 1 jusqu'au n donné %lf",somme);
+printf("voici la somme de 1 jusqu'au n donnÃ© %lf",somme);
 
    delta = (double) (t2-t1)/CLOCKS_PER_SEC ;
    printf("time excution is %lf",delta);
