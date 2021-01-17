@@ -10,7 +10,7 @@ public class For {
 
         List<Double> inputs = new ArrayList<Double>(){{
             add(1E6);add(2E6);add(1E7);add(2E7);add(1E8);add(2E8);
-            add(2E9);add(1E10);add(2E10);add(1E11);add(2E12);
+            add(1E9);add(2E9);add(1E10);add(2E10);add(1E11);add(2E12);
             add(1E13);add(2E13);add(1E14);add(2E14);
         }};
 
