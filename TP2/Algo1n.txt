@@ -1,0 +1,15 @@
+Algorithme A1 ;
+début
+premier := vrai ;
+
+i := 2 ;
+tant que ((i < n) et premier faire)
+    si (n mod i = 0) alors premier := faux 
+    sinon i := i+1 ;
+    fsi;
+fait;
+
+si premier alors ecrire(n," nombre premier")
+sinon ecrire(n, "n'est pas un nombre premier" ) 
+
+fin
