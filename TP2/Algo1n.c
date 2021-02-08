@@ -20,9 +20,6 @@ int main(int argc, char const *argv[])
         }
     }
 
-    t2 = clock();
-    delta = (double) (t2-t1)/CLOCKS_PER_SEC ;
-    printf("time excution is: %lf \n",delta);//! c'est en seconde?
     
     if (premier)
     {
@@ -31,5 +28,9 @@ int main(int argc, char const *argv[])
     {
         printf("%li n'est pas un nombre premier\n",n);
     }
+    
+    t2 = clock();
+    delta = (double) (t2-t1)/CLOCKS_PER_SEC ;
+    printf("time excution is: %lf \n",delta);//en seconde
     
 }
