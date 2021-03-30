@@ -95,7 +95,7 @@ int main()
             printf("ERROR");
             exit(1);
         }
-        fprintf(fptr,"n(s),T");
+        fprintf(fptr,"n,T(s)");
         
         for (size_t i = 0; i < 4; i++)
         {  
@@ -126,7 +126,7 @@ int main()
             printf("ERROR");
             exit(1);
         }
-        fprintf(fptr,"n(s),T");
+        fprintf(fptr,"n,T(s)");
         
         for (size_t i = 0; i < 4; i++)
         {  
@@ -154,7 +154,7 @@ int main()
             printf("ERROR");
             exit(1);
         }
-        fprintf(fptr,"n(s),T");
+        fprintf(fptr,"n,T(s)");
         
         for (size_t i = 0; i < 4; i++)
         {  
