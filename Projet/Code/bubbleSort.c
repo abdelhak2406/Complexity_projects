@@ -35,26 +35,27 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 
-void createSorted(int arr[], int length){
-    for (int i =0; i < length; i++)
+void createSorted(int arr[], int length)
+{
+    for (int i = 1; i < length; i++)
     {
-        arr[i] =i;
-
+        arr[i] = i;
     }
-    
 }
 
-void createReverseSorted(int arr[], int length){
-    int i,j;
-    for ( i = length-1, j=0 ; j < length; i-- , j++)
+void createReverseSorted(int arr[], int length)
+{
+    int i, j;
+    for (i = length - 2, j = 0; j < length; i--, j++)
     {
         arr[j] = i;
     }
 }
 
-void createRandom(int arr[], int length){
-    int i,j;
-    for ( i = 0 ; i < length; i++  )
+void createRandom(int arr[], int length)
+{
+    int i, j;
+    for (i = 1; i < length; i++)
     {
         arr[i] = rand();
     }
@@ -77,6 +78,7 @@ void createArrays(int len ,int arrSort[], int arrInvSort[],int arrRan[]){
     //printArray(tabTrieInverse,LENGTH);
     createRandom(arrRan,len);
 }
+
 
 int main()
 {
